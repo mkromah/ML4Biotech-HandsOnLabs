@@ -1,6 +1,6 @@
 # 🧬 ML Labs in Health, Biotech & Bioinformatics
 
-This repository presents a full hands-on machine learning journey tailored for students, researchers, and professionals in biotechnology, bioinformatics, and applied health sciences. It combines practical lab exercises across regression, classification, and safety-critical AI topics—bridging real-world data, ethical implications, and scientific curiosity.
+I use this repository to collect my notes from machine-learning exercises relevant to health, biotechnology, and bioinformatics. The topics include regression, classification, and the safety of automated systems.
 
 ---
 
@@ -86,7 +86,7 @@ weighted avg       1.00      1.00      1.00        30
 
 ---
 
-## 🧭 Ethical and Interpretability Considerations
+## Interpretation and limitations
 - **Bias Audits:** Smoker and age effects dominate prediction—caution needed.
 - **Gender & Regional fairness:** Model behaved consistently; but continuous monitoring is critical.
 - **Transparency:** Feature selection and output plots ensure interpretability.
@@ -96,11 +96,11 @@ weighted avg       1.00      1.00      1.00        30
 ## 🚀 Getting Started
 1. **Clone the repo**
 ```bash
-git clone https://github.com/your-username/ml-labs-health-bioinformatics.git
+git clone https://github.com/mkromah/ML4Biotech-HandsOnLabs.git
 ```
 2. **Setup environment**
 ```bash
-cd ml-labs-health-bioinformatics
+cd ML4Biotech-HandsOnLabs
 conda env create -f environment.yml
 conda activate insurance-ml
 ```
@@ -116,4 +116,4 @@ conda activate insurance-ml
 ---
 
 ## 🤝 Contributions Welcome
-Pull requests are open for extending to genomics datasets, lab automation use cases, or ethical audit frameworks for health-focused ML.
+I welcome corrections and suggestions for additional exercises in genomics, laboratory applications, or model evaluation.
